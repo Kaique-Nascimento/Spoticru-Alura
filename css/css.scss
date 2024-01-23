@@ -1,0 +1,60 @@
+$preto: #000;
+$branco: #fff;
+$cinza: #121212;
+
+body{
+    background-color: $preto;
+}
+*{
+    color: $branco;
+}
+@mixin padrao(){
+    background-color: $cinza;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+.sidebar{
+    font-family:"DM Sans", sans-serif;
+    font-weight: 600;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+.logo{
+    display: flex;
+    @include padrao();
+    img{
+        width: 30%;
+    }
+}
+.sidebar_navigation{
+    @include padrao();
+}
+ul{
+    margin-top: 10px;
+    li{
+        margin-top: 20px;
+    a{
+        text-decoration: none;
+    }
+    }
+}
+.biblioteca{
+    @include padrao();
+    margin-top: 10%;
+    font-size:larger;
+    .fa-book{
+        margin-right: 10%;
+        cursor: pointer;
+    }
+    .fa-plus{
+        margin-left: 10%;
+        cursor: pointer;
+    }
+}
+.fa-solid{
+    margin-right: 1%;
+}
