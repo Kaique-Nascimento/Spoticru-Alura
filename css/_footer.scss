@@ -1,0 +1,26 @@
+footer {
+    background: rgb(175,41,151);
+    background: linear-gradient(90deg, rgba(175,41,151,1) 0%, rgba(123,103,202,1) 50%, rgba(80,155,245,1) 100%);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: $branco; 
+    padding: 16px;
+    span{
+        display: flex;
+        justify-content: space-between;
+        max-width: 400px;
+        word-break: break-all;
+        button{
+            position: fixed;
+            right: 0;
+            margin-right: 10%;
+            border-radius: 20px;
+            border: 0;
+            font-weight: 700;
+            padding: 10px;
+            margin-top: -1%;
+            cursor: pointer;
+        }
+    }
+}
