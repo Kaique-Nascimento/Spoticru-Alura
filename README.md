@@ -1,2 +1,3 @@
-# Spoticru-Alura
-Curso imersão Alura - Página do Spotify
+# Spoticru-Teste
+Não sei se vai para frente
+vou ver e te aviso
