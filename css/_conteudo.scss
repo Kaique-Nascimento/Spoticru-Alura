@@ -1,18 +1,18 @@
-.main-container{
-    max-width: 800vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    .conteudo {
-        color: $branco;
-        display: flex;
-        justify-content: center; 
-        flex-direction: column;
-        
-        span {
-            margin-top: 10%;
+.playlist{
+    display:flex;
+    flex-direction: column;
+    .musicas{
+        .cards{
+            display: flex; 
+            justify-content: space-around;
         }
     }
+}
+.main-container {
+    max-width: 80vw;
+    height: 100vh;
+    margin-left: 320px;
+    margin-right: 56px;
     .navbar_header{
         padding: 16px;
         margin:10px;
